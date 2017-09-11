@@ -1,0 +1,1 @@
+web: java -jar target/scotts-uber-shopify-app.jar

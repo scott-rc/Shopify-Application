@@ -1,0 +1,104 @@
+// Personal
+$primary-color: #2980b9;
+$secondary-color: #ecf0f1;
+$text-background-color: #fafafa;
+
+html {
+  body {
+    background-color: $secondary-color;
+
+    .ui.segment {
+      background-color: $text-background-color;
+
+      &.basic.padded.container {
+        margin-top: -35px;
+      }
+    }
+
+    .ui.header {
+      color: $primary-color;
+    }
+
+    .ui.form {
+      textarea {
+        font-family: monospace;
+      }
+    }
+
+    .ui.button {
+      color: #fff;
+      background-color: $primary-color;
+    }
+
+    .padded {
+      padding: 10px 10px;
+    }
+
+    footer {
+      bottom: 0;
+      width: 100%;
+      position: fixed;
+
+      a, a:hover{
+        color: black;
+      }
+    }
+  }
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+// Front End Challenge
+$text-color: #FFF;
+$brand-dark: #000639;
+$brand-light: #5c6ac4;
+$success-color: #7AB55C;
+$error-color: #C23628;
+
+$base-font-size: 16px;
+$title-font-size: 24px;
+$field-status-font-size: 13px;
+
+.ui.center.aligned.segment.frontend {
+  padding: 50px;
+  color: $text-color;
+  background-color: $brand-dark;
+
+  h1 {
+    font-size: $title-font-size;
+  }
+
+  p {
+    font-size: $base-font-size;
+  }
+
+  .button {
+    color: $text-color;
+    background-color: $brand-light;
+    &.big {
+      margin-left: 5px;
+    }
+  }
+
+  .status {
+    font-size: $field-status-font-size;
+    padding-top: 10px;
+  }
+
+  .error {
+    @extend .status;
+    color: $error-color;
+  }
+
+  .success {
+    @extend .status;
+    color: $success-color;
+  }
+}

@@ -1,0 +1,51 @@
+html body {
+  background-color: #ecf0f1; }
+  html body .ui.segment {
+    background-color: #fafafa; }
+    html body .ui.segment.basic.padded.container {
+      margin-top: -35px; }
+  html body .ui.header {
+    color: #2980b9; }
+  html body .ui.form textarea {
+    font-family: monospace; }
+  html body .ui.button {
+    color: #fff;
+    background-color: #2980b9; }
+  html body .padded {
+    padding: 10px 10px; }
+  html body footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed; }
+    html body footer a, html body footer a:hover {
+      color: black; }
+
+.fade-enter {
+  opacity: 0.01; }
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in; }
+
+.ui.center.aligned.segment.frontend {
+  padding: 50px;
+  color: #FFF;
+  background-color: #000639; }
+  .ui.center.aligned.segment.frontend h1 {
+    font-size: 24px; }
+  .ui.center.aligned.segment.frontend p {
+    font-size: 16px; }
+  .ui.center.aligned.segment.frontend .button {
+    color: #FFF;
+    background-color: #5c6ac4; }
+    .ui.center.aligned.segment.frontend .button.big {
+      margin-left: 5px; }
+  .ui.center.aligned.segment.frontend .status, .ui.center.aligned.segment.frontend .error, .ui.center.aligned.segment.frontend .success {
+    font-size: 13px;
+    padding-top: 10px; }
+  .ui.center.aligned.segment.frontend .error {
+    color: #C23628; }
+  .ui.center.aligned.segment.frontend .success {
+    color: #7AB55C; }
+
+/*# sourceMappingURL=style.css.map */
